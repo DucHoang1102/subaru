@@ -1,0 +1,164 @@
+/*
+Theme Name: Laex
+Author: NguyenDucHoang
+Author URI: https://www.facebook.com/CuNguyenDucHoang
+Description: Laex is a theme wordpress for labor export sector 
+Version: 1.0
+License: 
+License URI: 
+Tags: theme, theme-wordpress
+Text Domain: laex
+ */
+
+/*  TABLE OF CONTENTS
+00. IMPORT
+01. COMMON
+02. HEADER
+    -Branding
+    -Menu
+03. MAIN CONTENT
+04. FOOTER
+05. WIDGETS
+06. SIDEBAR
+07. PAGE FORMATS
+08. FRONT PAGE
+    -Common
+    -Slideshow
+    -Section-1
+    -Section-2
+    -Section-3
+    -Section-4
+    -Section-5
+ */
+
+/* ---------------------------------------------------------------------------------------
+    00. IMPORT
+--------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------
+    01. COMMON
+--------------------------------------------------------------------------------------- */
+.site-branding-color {
+    color: #E84B1A;
+}
+.site-branding-background-color {
+    background-color: #E84B1A;
+}
+/* ---------------------------------------------------------------------------------------
+    02. HEADER
+--------------------------------------------------------------------------------------- */
+
+/* Branding */
+.site-header-branding {
+
+    margin-bottom: 0.3em;
+}
+.site-header-branding .logo {
+    
+}
+.site-header-branding .register-action {
+
+
+}
+.site-header-branding .register-action button {
+}
+/* Menu */
+.site-header-menu nav{
+    box-shadow: 0px 4px 10px grey;
+    padding: 0px;
+    background-color: #E84B1A;
+    z-index: 10;
+}
+.site-header-menu nav ul li {
+    height: 100%;
+    padding: 0.4em;
+    margin-right: 0.3em;
+}
+.site-header-menu nav ul li a{
+    color: #ffffff !important;
+}
+.site-header-menu nav .active {
+    background-color: #e56a44 !important;
+}
+.site-header-menu nav li:hover{
+    background-color: #e56a44;
+}
+/* ---------------------------------------------------------------------------------------
+    03. MAIN CONTENT
+--------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------
+    04. FOOTER
+--------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------
+    05. WIDGETS
+--------------------------------------------------------------------------------------- */
+/*See: laex_widgets_init in functions.php*/
+/* ---------------------------------------------------------------------------------------
+    06. SIDEBAR
+--------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------
+    07. PAGE FORMATS
+--------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------
+    08. FRONT PAGE
+--------------------------------------------------------------------------------------- */
+/* Common */
+.section-1, 
+.section-2, 
+.section-3, 
+.section-4, 
+.section-5
+{
+ 
+    margin-top: 1em;
+    padding: 1em;
+}
+
+/* Section 1 */
+.section-1 {}
+.section-1 .item {}
+
+.section-1 .item .content {
+    overflow: hidden;
+    background-color: #d15530;
+    padding: 0.5em;
+    line-height: 1em;
+}
+
+.section-1 .item .content p
+{
+    color: #E9B0B6;
+}
+
+.section-1 .item .content a,
+.section-1 .item .content span
+ {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.section-1 .item img {
+    max-width: 100%;
+}
+
+/* Section 2 */
+.section-2{}
+
+.section-2 .video-embed p {
+    padding-top: 1em;
+    line-height: 1.1em;
+}
+
+.section-2 .list-orders table thead tr {
+    background-color: #d15530;
+    font-size: 0.85em;
+    color: #ffffff;
+}
+
+.section-2 .list-orders table tbody tr {
+    font-size: 0.85em;
+}

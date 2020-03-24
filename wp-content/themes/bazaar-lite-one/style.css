@@ -1,0 +1,154 @@
+/*
+Theme Name: Bazaar Lite One
+Theme URI: https://www.themeinprogress.com/bazaar-free-ecommerce-wordpress-theme/
+Description: Bazzar Lite Child Theme
+Author: Theme in Progress.
+Author URI: https://www.themeinprogress.com
+Version: 1.0.0
+Template: bazaar-lite
+Text Domain: bazaar-lite-one
+Domain Path: /languages
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Bazaar Lite WordPress Theme, Copyright 2018 Theme in Progress
+Bazaar Lite is distributed under the terms of the GNU GPL v3
+*/
+
+/* ---------------------------------------------------------------------------------------
+   HEADE
+--------------------------------------------------------------------------------------- */
+#header .branding-site {
+    margin-top: 0.5em;
+}
+#header #logo a{
+    line-height: 0;
+}
+#header  .branding-site h4 {
+    margin: 0;
+    padding: 0.5em;
+}
+#header #mainmenu {
+    margin-top: 0.5em;
+}
+#header #mainmenu ul li a{
+    padding: 1em;
+}
+/* ---------------------------------------------------------------------------------------
+   CONTENT
+--------------------------------------------------------------------------------------- */
+/* Common */
+body {
+    font-family: sans-serif !important;
+}
+#content {
+    background-color: #ffffff;
+    padding: 1em;
+}
+.contents-title h3{
+    font-weight: 600;
+    color: #2765CF;
+    margin: 1em 0 1em 0;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #b3bbc9;
+}
+
+/* Content orders */
+.content-orders .contents-items .item {
+    margin-bottom: 1em;
+}
+.content-orders .contents-items .item .item-content {
+    background-color: #C23B2E;
+    padding: 0.5em;
+}
+.content-orders .contents-items .item .item-content h6 {
+    overflow: hidden;
+    margin: 0.2em 0 0.5em 0;
+    height: 50px;
+}
+.content-orders .contents-items .item .item-content h6:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 60px;
+    background-color: #ffffff;
+    margin: 17px 0;
+}
+.content-orders .contents-items .item .item-content h6 a,
+.content-orders .contents-items .item .item-content span {
+    color: #ffffff;
+    font-weight: 600;
+}
+.content-orders .contents-items .item .item-content p {
+    color: #e0e0e0;
+}
+.content-orders .contents-items .item img {
+    width: 100%;
+    height: 120px;
+}
+.content-orders .contents-items .item button {
+    margin-top: 0.3 em;
+}
+
+/* Content table */
+.content-table .contents-items table{
+    background-color: #F0F0F0;
+    text-align: center;
+}
+.content-table .contents-items table th {
+    font-weight: 600;
+    background-color: #2765CF;
+    color: #ffffff;
+    text-align: center;
+}
+.content-table .contents-items table td {
+}
+.content-table .contents-items table td a {
+    color: #004f9e;
+}
+
+/* Content news */
+.content-news {
+    padding: 1em;
+}
+.content-news .contents-items .item {
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+    background-color: #F8F8F8;
+}
+.content-news .contents-items .item img {
+    width: 100%;
+    height: 120px;
+}
+.content-news .contents-items .item .item-content {
+    overflow: hidden;
+    padding: 0.5em;
+    height: 220px;
+}
+.content-news .contents-items .item .item-content h6 {
+    margin: 1em 0;
+    font-weight: 600;
+}
+.content-news .contents-items .item .item-content h6 a {
+    color: #2765CF;
+}
+.content-news .contents-items .item .item-content span {
+    display: block;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+/* ---------------------------------------------------------------------------------------
+   FOOTER
+--------------------------------------------------------------------------------------- */
+.site-footer {
+    margin-top: 2em;
+    padding: 1em;
+    border-top: 4px solid #CFC627;
+}
+.site-footer .site-footer-categories-list h5{
+    font-weight: 600;
+    margin: 0.5em 0;
+}
+.site-footer .site-footer-categories-list ul {
+    padding-left: 2em;
+}
