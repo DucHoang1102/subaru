@@ -158,7 +158,7 @@
 
                 if ( $new_posts ) : foreach ( $new_posts as $post ) :
 
-                    $img_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post ) )[0];
+                    $img_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post ), array(500, 350) )[0];
 
                     $img_src = $img_src ? $img_src : get_stylesheet_directory_uri() . '/assets/images/logo.png';
             ?>
