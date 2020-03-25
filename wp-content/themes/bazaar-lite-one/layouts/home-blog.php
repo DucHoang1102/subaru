@@ -93,23 +93,38 @@
 
     <section class="content-video">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-6">
                 <div class="row contents-title">
                     <div class="col-md-12">
-                        <h3> ĐĂNG KÝ ỨNG TUYỂN </h3>
+                        <h3> <?php echo bazaarlite_setting( 'trangchu_quangcao_title_panel' ); ?> </h3>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row content-items">
                     <div class="col-md-12">
-                        <?php echo do_shortcode( bazaarlite_setting( 'trangchu_settings_form_panel' ) ); ?>
+                        <table>
+                            <tbody>
+                                <td class="border-bottom border-right"> <i class="fa fa-arrow-circle-o-up fa-spin"></i> </td>
+                                <td class="border-bottom "> 
+                                    <?php echo bazaarlite_setting( 'trangchu_quangcao_noidung1_panel' ); ?> 
+                                    <a href="<?php echo bazaarlite_setting( 'trangchu_quangcao_linkdangkiungtuyen_panel' ); ?>"> <button class="btn btn-primary btn-block"> ĐĂNG KÝ ỨNG TUYỂN </button> </a>
+                                </td> 
+                            </tbody>
+                            <tbody>
+                                <td class="border-bottom border-right"> <i class="fa fa-arrow-circle-o-up fa-spin"></i> </td>
+                                <td class="border-bottom"> 
+                                    <?php echo bazaarlite_setting( 'trangchu_quangcao_noidung2_panel' ); ?> 
+                                    <button class="btn btn-primary btn-block <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> XEM QUY TRÌNH </button>
+                                </td>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
             
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="row contents-title">
                     <div class="col-md-12">
-                        <h3> GIỚI THIỆU VỀ SUBARU </h3>
+                        <h3> <?php echo bazaarlite_setting( 'trangchu_youtube_title_panel' ); ?> </h3>
                     </div>
                 </div>
                 <div class="embed-responsive embed-responsive-16by9">

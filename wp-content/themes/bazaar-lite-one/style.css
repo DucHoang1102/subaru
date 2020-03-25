@@ -86,7 +86,6 @@ body {
     height: 120px;
 }
 .content-orders .contents-items .item button {
-    margin-top: 0.3 em;
 }
 
 /* Content table */
@@ -106,6 +105,26 @@ body {
     color: #004f9e;
 }
 
+/* Content-video */
+.border-bottom {
+    border-bottom: 5px solid #ffffff;
+}
+.border-right {
+    border-right: 5px solid #ffffff;
+}
+.content-video .content-items table td {
+    padding: 0.5em 1em;
+    background-color: #C23B2E;
+    color: #ffffff;
+}
+
+.content-video .content-items table td i {
+    font-size: 4em;
+}
+.content-video .content-items button {
+    margin-top: 0.5em;
+    font-weight: 600;
+}
 /* Content news */
 .content-news {
     padding: 1em;

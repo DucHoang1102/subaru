@@ -1,14 +1,5 @@
         <footer class="site-footer container">
             <div class="row site-footer-categories-list">
-                <div class="col-md-3">
-                    <h5>VỀ SUBARU</h5>
-                    <ul>
-                        <li><a href="#">Giới thiệu tổng quan</a></li>
-                        <li><a href="#">Giới thiệu</a></li>
-                        <li><a href="#">Tầm nhìn - Sứ mệnh</a></li>
-                        <li><a href="#">Lịch sử hình thành</a></li>
-                    </ul>
-                </div>
             </div>
             <hr />
             <div class="row">
