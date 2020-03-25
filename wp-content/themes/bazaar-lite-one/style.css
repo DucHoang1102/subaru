@@ -115,6 +115,8 @@ body {
 .content-video .content-items table td {
     padding: 0.5em 1em;
     background-color: #C23B2E;
+    height: 157px;
+    line-height: 1.2em;
     color: #ffffff;
 }
 
