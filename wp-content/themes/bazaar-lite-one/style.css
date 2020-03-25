@@ -116,10 +116,14 @@ body {
     padding: 0.5em 1em;
     background-color: #C23B2E;
     height: 157px;
+}
+.content-video .content-items table td i{
+    color: #ffffff;
+}
+.content-video .content-items table td p {
     line-height: 1.2em;
     color: #ffffff;
 }
-
 .content-video .content-items table td i {
     font-size: 4em;
 }
@@ -133,7 +137,6 @@ body {
 }
 .content-news .contents-items .item {
     margin-bottom: 1em;
-    padding-bottom: 2em;
     background-color: #F8F8F8;
 }
 .content-news .contents-items .item img {
@@ -157,14 +160,15 @@ body {
     font-style: italic;
     margin-bottom: 0.5em;
 }
-
+.content-news .contents-items .item .item-content p {
+    line-height: 1.3em;
+}
 /* ---------------------------------------------------------------------------------------
    FOOTER
 --------------------------------------------------------------------------------------- */
 .site-footer {
     margin-top: 2em;
     padding: 1em;
-    border-top: 4px solid #CFC627;
 }
 .site-footer .site-footer-categories-list h5{
     font-weight: 600;

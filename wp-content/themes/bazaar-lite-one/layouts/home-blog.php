@@ -103,18 +103,24 @@
                     <div class="col-md-12">
                         <table>
                             <tbody>
-                                <td class="border-bottom border-right"> <i class="fa fa-arrow-circle-o-up fa-spin"></i> </td>
-                                <td class="border-bottom "> 
-                                    <?php echo bazaarlite_setting( 'trangchu_quangcao_noidung1_panel' ); ?> 
-                                    <a href="<?php echo bazaarlite_setting( 'trangchu_quangcao_linkdangkiungtuyen_panel' ); ?>"> <button class="btn btn-primary btn-block"> ĐĂNG KÝ ỨNG TUYỂN </button> </a>
-                                </td> 
-                            </tbody>
-                            <tbody>
-                                <td class="border-bottom border-right"> <i class="fa fa-arrow-circle-o-up fa-spin"></i> </td>
-                                <td class="border-bottom"> 
-                                    <?php echo bazaarlite_setting( 'trangchu_quangcao_noidung2_panel' ); ?> 
-                                    <button class="btn btn-primary btn-block <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> XEM QUY TRÌNH </button>
-                                </td>
+                                <tr>
+                                    <td class="border-bottom border-right"> <i class="fa fa-arrow-circle-o-up fa-spin"></i> </td>
+                                    <td class="border-bottom "> 
+                                        <p> <?php echo bazaarlite_setting( 'trangchu_quangcao_noidung1_panel' ); ?>  </p>
+                                        <div class="text-center"> 
+                                            <button class="btn btn-primary <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> ĐĂNG KÝ ỨNG TUYỂN </button> </a> 
+                                        </div>
+                                    </td> 
+                                </tr>
+                                <tr>
+                                    <td class="border-bottom border-right"> <i class="fa fa-arrow-circle-o-up fa-spin"></i> </td>
+                                    <td class="border-bottom">
+                                        <p> <?php echo bazaarlite_setting( 'trangchu_quangcao_noidung2_panel' ); ?> </p>
+                                        <div class="text-center"> 
+                                            <a href="<?php echo bazaarlite_setting( 'trangchu_quangcao_linkdangkiungtuyen_panel' ); ?>"> <button class="btn btn-primary"> XEM QUY TRÌNH </button> </a>
+                                        </div>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -162,7 +168,7 @@
                             <div class="item-content">
                                 <h6> <a href="<?php echo get_permalink( $post->ID ); ?>"> <?php echo $post->post_title; ?>  </a> </h6>
                                 <span> <?php echo get_the_date( 'd-m-Y', $post ); ?> </span>
-                                <p> <?php echo $post->post_content; ?> </p>
+                                <p> <?php echo wp_trim_words ( $post->post_content, 30 ); ?> </p>
                             </div>
                         </div>
                     </div>
