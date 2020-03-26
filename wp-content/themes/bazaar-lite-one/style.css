@@ -176,3 +176,37 @@ body {
 .site-footer .site-footer-categories-list ul {
     padding-left: 2em;
 }
+
+
+/* ---------------------------------------------------------------------------------------
+   DON HANG FORMAT (oders)
+--------------------------------------------------------------------------------------- */
+.donhang .donhang-content {
+    background-color: #C23B2E;
+    padding: 0.5em;
+}
+.donhang .donhang-content h6 {
+    overflow: hidden;
+    margin: 0.2em 0 0.5em 0;
+    height: 50px;
+}
+.donhang .donhang-content h6:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 60px;
+    background-color: #ffffff;
+    margin: 17px 0;
+}
+.donhang .donhang-content h6 a,
+.donhang .donhang-content span {
+    color: #ffffff;
+    font-weight: 600;
+}
+.donhang .donhang-content p {
+    color: #e0e0e0;
+}
+.donhang img {
+    width: 100%;
+    height: 150px;
+}
