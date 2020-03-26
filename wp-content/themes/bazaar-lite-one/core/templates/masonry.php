@@ -7,8 +7,10 @@
 
 if (!function_exists('bazaarlite_masonry_child_function')) {
 
+    remove_action( 'bazaarlite_masonry', 'bazaarlite_masonry_function' );
+
     function bazaarlite_masonry_child_function() { ?>
-        <hr />
+
         <div class="row masonry">
 
             <?php
@@ -23,7 +25,7 @@ if (!function_exists('bazaarlite_masonry_child_function')) {
                 
                 <article <?php post_class(); ?>>
 
-                    <?php do_action('bazaarlite_postformat_child'); ?>
+                    <?php  get_template_part( 'core/post-formats/' . 'donhang' . '-format' ); ?>
                 
                 </article>
                 
@@ -32,6 +34,23 @@ if (!function_exists('bazaarlite_masonry_child_function')) {
             <?php  endwhile; endif;?>
             
         </div>
+
+        <?php if ( have_posts() ) : ?>
+            <hr />
+            <div class="row masonry">
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+           
+                    <article <?php post_class(); ?>>
+        
+                        <?php do_action('bazaarlite_postformat'); ?>
+                    
+                    </article>
+            
+                <?php endwhile; endif; ?> 
+
+            </div>
+
+        <?php endif; ?>
         
     <?php 
             

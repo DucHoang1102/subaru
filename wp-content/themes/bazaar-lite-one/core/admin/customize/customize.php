@@ -36,12 +36,21 @@ if ( ! function_exists( 'bazaarliteone_customize_panel_function' ) ) {
                     ),
                     array(
                         
-                        'label'       => esc_html__( 'Số lượng:','bazaarone-lite'),
-                        'description' => esc_html__( 'Số lượng sản phẩm cần hiển thị','bazaarone-lite'),
+                        'label'       => esc_html__( 'Số lượng sản phẩm:','bazaarone-lite'),
+                        'description' => esc_html__( 'Số lượng sản phẩm sẽ hiển thị ra ngoài trang chủ','bazaarone-lite'),
                         'id'          => 'trangchu_order_items_panel',
                         'type'        => 'text',
                         'section'     => 'trangchu_order_panel',
                         'std'         => '8',
+                    ),
+                    array(
+                        
+                        'label'       => esc_html__( 'Đường dẫn danh mục:','bazaarone-lite'),
+                        'description' => esc_html__( 'Đường dẫn danh mục mà bạn muốn hiển thị','bazaarone-lite'),
+                        'id'          => 'trangchu_order_uri_panel',
+                        'type'        => 'text',
+                        'section'     => 'trangchu_order_panel',
+                        'std'         => 'don-hang-noi-bat',
                     ),
 
                 /* Khung hiển thị bảng đơn hàng */

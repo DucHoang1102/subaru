@@ -1,41 +1,29 @@
 <div id="content" class="container">
+
     <section class="content-orders">
+
         <div class="row contents-title">
             <div class="col-md-12">
                 <h3> <?php echo bazaarlite_setting( 'trangchu_order_title_panel' ); ?> </h3>
             </div>
         </div>
+
         <div class="row contents-items">
             <?php 
-                $args = array(
-                    'post_type'   => 'qun_l_n_hng',
-                    'meta_key'    => 'donhang_noibat',
-                    'meta_value'  => true,
-                    'numberposts' => bazaarlite_setting( 'trangchu_order_items_panel' ),
+                $noibat_args = array(
+                    'post_type'      => 'qun_l_n_hng',
+                    'category_name'  => bazaarlite_setting( 'trangchu_order_uri_panel' ),
+                    'posts_per_page' => bazaarlite_setting( 'trangchu_order_items_panel' ),
                 );
-
-                if (  get_posts( $args ) ) : foreach ( get_posts( $args ) as $post ) : 
+                $noibat_query = new WP_Query( $noibat_args );
             ?>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="item-content">
-                            <h6> <a href="<?php echo get_permalink( $post->ID ); ?>"> <?php echo $post->post_title; ?> </a> </h6>
-                            <p> <i class="fa fa-bolt"></i>       Số lượng:     <span> <?php echo get_post_field( 'soluong', $post ); ?>     </span> </p>
-                            <p> <i class="fa fa-map-marker"></i> Nơi làm việc: <span> <?php echo get_post_field( 'noilamviec', $post ); ?>  </span> </p>
-                            <p> <i class="fa fa-usd"></i>        Lương:        <span> <?php echo get_post_field( 'luong', $post ); ?> triệu </span> </p>
-                            <p> <i class="fa fa-calendar"></i>   Ngày tuyển:   <span> <?php echo get_post_field( 'ngaytuyen', $post ); ?>   </span> </p>
-                        </div>
-                        <img src="<?php echo get_post_field( 'avatar', $post )['guid']; ?>" 
-                            alt="<?php echo get_post_field( 'avatar', $post )['post_title']; ?>" >
-                        <button class="btn btn-primary btn-block <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> <i class="fa fa-phone" aria-hidden="true"></i> ĐĂNG KÝ NGAY </button>
-                    </div>
-                </div>
+            <?php if( $noibat_query ->have_posts() ) : while ( $noibat_query ->have_posts() ) : $noibat_query->the_post(); ?>
 
-            <?php endforeach; else: ?>
-                
-                <div class="col-md-12"> <p> Dữ liệu trống </p> </div>
+                <article class="col-md-3">
+                    <?php  get_template_part( 'core/post-formats/' . 'donhang' . '-format' ); ?>
+                </article>
 
-            <?php endif; ?>
+            <?php endwhile; endif; ?>
         </div>
     </section>
 
@@ -160,7 +148,7 @@
 
                     $img_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post ), array(500, 350) )[0];
 
-                    $img_src = $img_src ? $img_src : get_stylesheet_directory_uri() . '/assets/images/logo.png';
+                    $img_src = $img_src ? $img_src : get_stylesheet_directory_uri() . '/assets/images/img_default_500_350.png';
             ?>
                     <div class="col-md-3">
                         <div class="item">
