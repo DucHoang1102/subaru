@@ -10,13 +10,16 @@
 
         <div class="row contents-items">
             <?php 
+
                 $noibat_args = array(
                     'post_type'      => 'qun_l_n_hng',
                     'category_name'  => bazaarlite_setting( 'trangchu_order_uri_panel' ),
                     'posts_per_page' => bazaarlite_setting( 'trangchu_order_items_panel' ),
                 );
+
                 $noibat_query = new WP_Query( $noibat_args );
             ?>
+
             <?php if( $noibat_query ->have_posts() ) : while ( $noibat_query ->have_posts() ) : $noibat_query->the_post(); ?>
 
                 <article class="col-md-3">
@@ -35,45 +38,23 @@
         </div>
         <div class="row contents-items">
             <?php
-                $table_args = array(
-                    'post_type'   => 'qun_l_n_hng',
-                    'numberposts' => bazaarlite_setting( 'trangchu_table_items_panel' ),
+
+                $all_donhang_args = array(
+                    'post_type'      => 'qun_l_n_hng',
+                    'category_name'  => bazaarlite_setting( 'trangchu_table_uri_panel' ),
+                    'posts_per_page' => bazaarlite_setting( 'trangchu_table_items_panel' ),
                 );
 
-                $table_posts =  get_posts( $table_args );
+                $all_donhang_query = new WP_Query( $all_donhang_args );
 
-                if (  $table_posts ) :
+                set_query_var( 'q' , $all_donhang_query );
             ?>
-                <div class="col-md-12 table-responsive">
-                    <table class="table table-bordered table-striped">
-                        <thead>
-                            <tr>
-                                <th> NGÀNH NGHỀ </th>
-                                <th> SỐ LƯỢNG </th>
-                                <th> NƠI LÀM VIỆC </th>
-                                <th> LƯƠNG </th>
-                                <th> NGÀY TUYỂN </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php foreach ( $table_posts as $post ) : ?>
-                                <tr>
-                                    <td class="text-left"> <a href="<?php echo get_permalink( $table_posts->ID ); ?>"> <?php echo $post->post_title; ?> </a> </th>
-                                    <td> <?php echo get_post_field( 'soluong', $post ); ?>     </td>
-                                    <td> <?php echo get_post_field( 'noilamviec', $post ); ?>  </td>
-                                    <td> <?php echo get_post_field( 'luong', $post ); ?> triệu </td>
-                                    <td> <?php echo get_post_field( 'ngaytuyen', $post ); ?>   </td>
-                                </tr>
-                            <?php endforeach; ?>
-                        </tbody>
-                    </table>
-            </div>
 
-            <?php else: ?>
+            <article class="col-md-12 table-responsive">
 
-                <div class="col-md-12"> <p> Dữ liệu trống </p> </div>
-
-            <?php endif; ?>
+                <?php get_template_part( 'core/post-formats/' . 'tabledonhang' . '-format' ); ?>
+                
+            </article>
         
         </div>
         

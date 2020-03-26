@@ -80,7 +80,15 @@ if ( ! function_exists( 'bazaarliteone_customize_panel_function' ) ) {
                         'section'     => 'trangchu_table_panel',
                         'std'         => '10',
                     ),
-
+                    array(
+                        
+                        'label'       => esc_html__( 'Đường dẫn danh mục:','bazaarone-lite'),
+                        'description' => esc_html__( 'Đường dẫn danh mục mà bạn muốn hiển thị','bazaarone-lite'),
+                        'id'          => 'trangchu_table_uri_panel',
+                        'type'        => 'text',
+                        'section'     => 'trangchu_table_panel',
+                        'std'         => 'don-hang',
+                    ),
 
                 /* Khung quảng cáo công ty */
                 array( 
