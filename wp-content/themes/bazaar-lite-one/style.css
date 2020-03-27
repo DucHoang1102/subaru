@@ -186,7 +186,7 @@ body {
 }
 .formdangki {
     border-radius: 5px !important;
-    background-color: #f2f2f2 !important;
+    background-color: #F7F7F7 !important;
     padding: 20px !important;
 }
 .formdangki .wpforms-field {
@@ -196,6 +196,7 @@ body {
 .formdangki label {
     padding: 0 !important;
     margin: 0 !important;
+    font-size: 0.8em !important;
 }
 .formdangki input,
 .formdangki select {
@@ -203,7 +204,7 @@ body {
     padding: 8px 15px !important;
     display: inline-block !important;
     border: none !important;
-    border-bottom: 1px solid #ccc !important;
+    border-bottom: 1px solid #4079ce !important;
     border-radius: 1px !important;
     box-sizing: border-box !important;
     color: #000000 !important;
@@ -216,7 +217,6 @@ body {
 
 .formdangki select {
 }
-
 .formdangki button[type=submit] {
   width: 100% !important;
   background-color: #4CAF50 !important;
@@ -226,4 +226,26 @@ body {
   border: none !important;
   border-radius: 4px !important;
   cursor: pointer !important;
+}
+
+/* ---------------------------------------------------------------------------------------
+   SIDEBAR
+--------------------------------------------------------------------------------------- */
+.sidebar-box {
+}
+.sidebar-box .widget-box  {
+    margin: 0 !important;
+    padding: 1em;
+}
+.sidebar-box .widget-box .title-container {
+}
+.sidebar-box .widget-box .title-container .title {
+    width: 100%;
+    padding: 0.5em;
+    color: #ffffff !important;
+    background-color: #2765CF;
+}
+.sidebar-box .widget-box ul,
+.sidebar-box .widget-box .wpforms-container{
+    text-align: left;
 }
