@@ -173,3 +173,57 @@ body {
 .donhang img {
     width: 100%;
 }
+
+/* ---------------------------------------------------------------------------------------
+   FORM
+--------------------------------------------------------------------------------------- */
+.pum-container .pum-title {
+    font-size: 1.8em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #c9302c;
+    padding: 0.5em;
+}
+.formdangki {
+    border-radius: 5px !important;
+    background-color: #f2f2f2 !important;
+    padding: 20px !important;
+}
+.formdangki .wpforms-field {
+    padding: 0!important;
+    margin-bottom: 1em !important;
+}
+.formdangki label {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.formdangki input,
+.formdangki select {
+    min-width: 100% !important;
+    padding: 8px 15px !important;
+    display: inline-block !important;
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 1px !important;
+    box-sizing: border-box !important;
+    color: #000000 !important;
+    background-color: #f2f2f2 !important;
+    box-shadow: 0 8px 6px -6px #e2e2e2 !important;
+}
+.formdangki input[type=text] {}
+
+.formdangki input[type=number] {}
+
+.formdangki select {
+}
+
+.formdangki button[type=submit] {
+  width: 100% !important;
+  background-color: #4CAF50 !important;
+  color: white !important;
+  padding: 14px 20px !important;
+  margin: 8px 0 !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+}
