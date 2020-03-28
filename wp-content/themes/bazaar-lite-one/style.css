@@ -175,6 +175,37 @@ body {
 }
 
 /* ---------------------------------------------------------------------------------------
+   POST FORMAT
+--------------------------------------------------------------------------------------- */
+.post {
+    margin-bottom: 1em;
+    background-color: #F8F8F8;
+}
+.post img {
+    width: 100%;
+}
+.post .post-content {
+    overflow: hidden;
+    padding: 0.5em;
+    height: 220px;
+}
+.post .post-content h6 {
+    margin: 1em 0;
+    font-weight: 600;
+}
+.post .post-content h6 a {
+    color: #2765CF;
+}
+.post .post-content span {
+    display: block;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+.post .post-content p {
+    line-height: 1.3em;
+}
+
+/* ---------------------------------------------------------------------------------------
    FORM
 --------------------------------------------------------------------------------------- */
 .pum-container .pum-title {
@@ -248,4 +279,37 @@ body {
 .sidebar-box .widget-box ul,
 .sidebar-box .widget-box .wpforms-container{
     text-align: left;
+}
+
+/* ---------------------------------------------------------------------------------------
+   Masony ( view at category )
+--------------------------------------------------------------------------------------- */
+.masonry-container {
+}
+.cat-masony h1{
+    border-bottom: 1px solid #b3bbc9;
+    margin: 0 0 1em 0;
+    padding: 0.3em 0 0.3em 0;
+    font-weight: 600;
+    color: #2765CF;
+}
+.masonry {
+    margin-bottom: 0 !important;
+}
+.masonry .donhang,
+.masonry .post
+ {
+    margin-bottom: 1.5em;
+}
+
+/* ---------------------------------------------------------------------------------------
+   Breadcrumb 
+--------------------------------------------------------------------------------------- */
+#breadcrumb_wrapper {
+    margin-bottom: 0 !important;
+    padding: 0.5em 0 0.5em 0 !important;
+}
+
+.pum-container {
+    width: 800px !important;
 }

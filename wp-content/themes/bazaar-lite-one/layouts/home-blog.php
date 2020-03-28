@@ -20,7 +20,7 @@
                 $noibat_query = new WP_Query( $noibat_args );
             ?>
 
-            <?php if( $noibat_query ->have_posts() ) : while ( $noibat_query ->have_posts() ) : $noibat_query->the_post(); ?>
+            <?php if( $noibat_query->have_posts() ) : while ( $noibat_query->have_posts() ) : $noibat_query->the_post(); ?>
 
                 <article class="col-md-3">
                     <?php  get_template_part( 'core/post-formats/' . 'donhang' . '-format' ); ?>
@@ -118,35 +118,27 @@
 
         <div class="row contents-items">
             <?php 
+
                 $news_args = array(
-                    'category'    => get_category_by_slug( bazaarlite_setting( 'trangchu_news_slug_panel' ) )->term_id,
-                    'numberposts' => bazaarlite_setting( 'trangchu_news_items_panel' ),
+                    'post_type'      => 'post',
+                    'category_name'  => bazaarlite_setting( 'trangchu_news_slug_panel' ),
+                    'posts_per_page' => bazaarlite_setting( 'trangchu_news_items_panel' ),
                 );
 
-                $new_posts = get_posts( $news_args );
+                $news_query = new WP_Query( $news_args );
 
-                if ( $new_posts ) : foreach ( $new_posts as $post ) :
-
-                    $img_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post ), array(250, 170) )[0];
-
-                    $img_src = $img_src ? $img_src : get_stylesheet_directory_uri() . '/assets/images/img_default_250_170.png';
             ?>
-                    <div class="col-md-3">
-                        <div class="item">
-                            <img src="<?php echo $img_src; ?>" alt="">
-                            <div class="item-content">
-                                <h6> <a href="<?php echo get_permalink( $post->ID ); ?>"> <?php echo $post->post_title; ?>  </a> </h6>
-                                <span> <?php echo get_the_date( 'd-m-Y', $post ); ?> </span>
-                                <p> <?php echo wp_trim_words ( $post->post_content, 30 ); ?> </p>
-                            </div>
-                        </div>
-                    </div>
-
-            <?php endforeach; else: ?>
             
-                    <div class="col-md-12"> <p> Dữ liệu trống </p> </div>
+            <?php if( $news_query->have_posts() ) : while ( $news_query->have_posts() ) : $news_query->the_post(); ?>
+
+                <article class="col-md-3">
+
+                    <?php  get_template_part( 'core/post-formats/' . 'news' . '-format' ); ?>
+
+                </article>
+
+            <?php endwhile; endif; ?>
                 
-            <?php endif; ?>
         </div>
     </section>
 </div>

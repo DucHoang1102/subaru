@@ -11,47 +11,49 @@ if (!function_exists('bazaarlite_masonry_child_function')) {
 
     function bazaarlite_masonry_child_function() { ?>
 
-        <div class="row masonry">
-
-            <?php
-                $args = array(
-                    'post_type' => array('qun_l_n_hng'),
-                    'cat'       => get_queried_object()->term_id 
-                );
-                $q = new WP_Query( $args );
-            ?>
-            
-            <?php if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); ?>
-                
-                <article <?php post_class(); ?>>
-
-                    <?php  get_template_part( 'core/post-formats/' . 'donhang' . '-format' ); ?>
-                
-                </article>
-                
-                <?php wp_reset_postdata(); ?>
-    
-            <?php  endwhile; endif;?>
-            
+        <div class="cat-masony">
+            <h1> <?php single_cat_title() ?> </h1>
         </div>
-
-        <?php if ( have_posts() ) : ?>
-            <hr />
-            <div class="row masonry">
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-           
-                    <article <?php post_class(); ?>>
         
-                        <?php do_action('bazaarlite_postformat'); ?>
+        <?php
+
+            $args = array(
+                'post_type' => array( 'qun_l_n_hng', 'post' ),
+                'cat'       => get_queried_object()->term_id,
+            );
+
+            $q = new WP_Query( $args );
+
+        ?>
+
+        <?php if ($q->have_posts()) : ?>
+
+            <div class="row masonry">
+                
+                <?php if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); ?>
+                    
+                    <article class="col-md-3">
+
+                        <?php if ( get_post_type() == 'qun_l_n_hng' ) : ?>
+
+                            <?php  get_template_part( 'core/post-formats/' . 'donhang' . '-format' ); ?>
+
+                        <?php else : ?>
+
+                            <?php get_template_part( 'core/post-formats/' . 'news' . '-format' ); ?>
+
+                        <?php endif; ?>
                     
                     </article>
-            
-                <?php endwhile; endif; ?> 
-
-            </div>
-
-        <?php endif; ?>
+                    
+                    <?php wp_reset_postdata(); ?>
         
+                <?php  endwhile; endif;?>
+                
+            </div>
+        
+        <?php endif; ?>
+
     <?php 
             
     } 
