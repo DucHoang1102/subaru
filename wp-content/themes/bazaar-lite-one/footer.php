@@ -15,6 +15,7 @@
                 <div class="col-md-6">
                     <p> <b> Chi nhánh tại Nhật Bản: </b> <br>
                     <i> 1. Chiba , thành phố Matsudo, Daikindaira, 3-183-9 <br> 2. Hiroshima, thành phố Fukuyama, Minami Nariocho 6-26-26 <br> 3. Aichi, thành phố Takahama, Koyucho 4-7-10 </i> </p>
+                    <p>© 2020 Subaru. All rights reserved</p>
                 </div>
             </div>
         </footer>

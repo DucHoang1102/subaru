@@ -32,11 +32,26 @@ if ( function_exists('wp_body_open') ) {
                 <div class="row">
                     <div class="branding-site">
                         <div class="col-md-2 text-left">
-                            <div id="logo text-text">
+                            <div class="row">
+                                
+                                <div class="col-xs-9">
+
+                                    <div id="logo text-text">
                         
-                                <?php bazaarlite_get_logo(); ?> 
-                                                
+                                        <?php bazaarlite_get_logo(); ?> 
+                                                        
+                                    </div>
+
+                                </div>
+
+                                <div class="col-xs-3 trigger-toggle">
+                                    
+                                    <i class="fa fa-align-justify" aria-hidden="true"></i>
+
+                                </div>
+
                             </div>
+                            
                         </div>
                         <div class="col-md-7 text-right">
                             <h4> <i class="fa fa-phone-square" aria-hidden="true"></i> Liên hệ ngay: <b>0913.200.236 - 0967.971.575</b> </h4>
@@ -111,3 +126,34 @@ if ( function_exists('wp_body_open') ) {
     }
     
 ?>
+
+<!-- Menu Toggle button trigger -->
+<script>
+    (function( $ ) {
+
+        $( '.trigger-toggle i' ).click(function(){
+
+            $( 'nav#mainmenu ul' ).slideToggle( 400, () => {
+                if ( $(window).width() > 992 ) {
+
+                }
+            } );
+
+        })
+
+        $( window ).resize( () => {
+            if ( ( window.innerWidth > window.innerHeight ) && $(window).width() > 992 ) {
+                
+                $( 'nav#mainmenu ul' ).css('display', 'block');
+
+            }
+            else {
+                
+                $( 'nav#mainmenu ul' ).css('display', 'none');
+
+            }
+
+        } )
+
+    })(jQuery)
+</script>

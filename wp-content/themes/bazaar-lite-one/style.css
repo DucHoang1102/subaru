@@ -313,3 +313,51 @@ body {
 .pum-container {
     width: 800px !important;
 }
+
+/* ---------------------------------------------------------------------------------------
+   Menu 
+--------------------------------------------------------------------------------------- */
+.trigger-toggle {
+    display: none;
+    visibility: hidden;
+    text-align: right;
+    color: #1cbd9d;
+}
+.trigger-toggle i {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 992px) and (min-width: 0px) {
+    .trigger-toggle {
+        display: block;
+        visibility: visible;
+    }
+    .tinynav {
+        visibility: hidden !important;
+        display: none !important;
+    }
+    nav#mainmenu {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    nav#mainmenu ul {
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        padding: 0 !important;
+        margin: 0 !important;
+        visibility: visible !important;
+    }
+    nav#mainmenu ul li {
+        display: block !important;
+        text-align: left !important;
+        width: 100%;
+        border: 1px solid #ffffff;
+        background-color: rgba(28, 189, 157, 0.9);
+        color: #ffffff;
+    }
+    nav#mainmenu ul li a {
+        color: #000000 !important;
+    }
+}
