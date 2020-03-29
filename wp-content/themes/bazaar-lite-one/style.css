@@ -204,7 +204,11 @@ body {
 .post .post-content p {
     line-height: 1.3em;
 }
-
+@media screen and (max-width: 992px) and (min-width: 0px) {
+    .post .post-content {
+        height: auto !important;
+    }
+}
 /* ---------------------------------------------------------------------------------------
    FORM
 --------------------------------------------------------------------------------------- */
