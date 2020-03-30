@@ -30,65 +30,43 @@ if ( function_exists('wp_body_open') ) {
             <div class="container">
             
                 <div class="row">
-                    <div class="branding-site">
-                        <div class="col-md-2 text-left">
-                            <div class="row">
-                                
-                                <div class="col-xs-9">
+                    <div class="col-md-12">
+                        <div class="branding-site">
+                            <div class="col-md-2 text-left">
+                                <div class="row">
+                                    
+                                    <div class="col-xs-9">
 
-                                    <div id="logo text-text">
-                        
-                                        <?php bazaarlite_get_logo(); ?> 
-                                                        
+                                        <div id="logo text-text">
+                            
+                                            <?php bazaarlite_get_logo(); ?> 
+                                                            
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-xs-3 trigger-toggle">
+                                        
+                                        <i class="fa fa-align-justify" aria-hidden="true"></i>
+
                                     </div>
 
                                 </div>
-
-                                <div class="col-xs-3 trigger-toggle">
-                                    
-                                    <i class="fa fa-align-justify" aria-hidden="true"></i>
-
-                                </div>
-
+                                
                             </div>
-                            
-                        </div>
-                        <div class="col-md-7 text-right">
-                            <h4> <i class="fa fa-phone-square" aria-hidden="true"></i> Liên hệ ngay: <b>0913.200.236 - 0967.971.575</b> </h4>
-                        </div>
 
-                        <div class="col-md-3 text-right">
-                            <button class="btn btn-danger <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> <i class="fa fa-refresh fa-spin fa-fw"></i> <span class="sr-only">Loading...</span> Đăng ký ứng tuyển </button>
-                        </div> 
+                            <div class="col-md-7 text-right">
+                                <h4> <i class="fa fa-phone-square" aria-hidden="true"></i> Liên hệ ngay: <b>0913.200.236 - 0967.971.575</b> </h4>
+                            </div>
+
+                            <div class="col-md-3 text-right">
+                                <button class="btn btn-danger <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> <i class="fa fa-refresh fa-spin fa-fw"></i> <span class="sr-only">Loading...</span> Đăng ký ứng tuyển </button>
+                            </div> 
+                        </div>
                     </div>
-
-                    <?php 
-                        
-                        if ( bazaarlite_is_woocommerce_active() && bazaarlite_setting('wip_woocommerce_header_cart') == "on" ) :
-                            
-                            $menu_class="col-md-11";
-                            
-                            echo '<div class="col-md-1 right">';
-        
-                                bazaarlite_header_cart();
-                            
-                            echo '</div>';
-                            
-                        else:
+                
+                    <div class="col-md-12 wrap-menu">
     
-                            $menu_class="col-md-12";
-
-                        endif;
-
-                    ?>
-
-                    <div class="<?php echo $menu_class; ?>">
-
-                        <button class="menu-toggle" aria-controls="mainmenu" aria-expanded="false" type="button">
-                            <span aria-hidden="true"><?php esc_html_e( 'Menu', 'bazaar-lite' ); ?></span>
-                            <span class="dashicons" aria-hidden="true"></span>
-                        </button>
-
                         <nav id="mainmenu" class="<?php echo bazaarlite_setting('wip_menu_layout'); ?>">
 
                             <?php 

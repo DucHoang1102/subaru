@@ -41,6 +41,8 @@ Bazaar Lite is distributed under the terms of the GNU GPL v3
 :root{
     --main-bg-color: #f74a00;
     --main-title-color: #008989;
+    --menu-bg-color: #F74A00;
+    --menu-hover-color: #ff804f;
 };
 
 body {
@@ -324,26 +326,54 @@ body {
 /* ---------------------------------------------------------------------------------------
    Menu 
 --------------------------------------------------------------------------------------- */
+.wrap-menu {
+    background-color: var(--menu-bg-color);
+    box-shadow: 0 4px 2px -2px gray;
+}
+nav#mainmenu {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+    text-align: center !important;
+}
+nav#mainmenu ul {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+}
+nav#mainmenu ul li a {
+    color: #ffffff !important;
+}
+nav#mainmenu ul li{
+    display: inline-block !important;
+    padding: 0 5px 0 5px !important;
+    background-color: var(--menu-bg-color);
+    margin-right: 1px;
+    float: none !important;
+}
+
+nav#mainmenu ul li:hover {
+    background-color: var(--menu-hover-color);
+}
+nav#mainmenu .current-menu-item {
+    background-color: var(--menu-hover-color) !important;
+}
+
 .trigger-toggle {
     display: none;
     visibility: hidden;
     text-align: right;
-    color: #1cbd9d;
+    color: var(--menu-bg-color);
 }
 .trigger-toggle i {
     font-size: 30px;
     padding-top: 20px;
 }
 
-nav#mainmenu {
-    border: 1px solid black;
-}
-
-nav#mainmenu ul li{
-    border: 1px solid green;
-}
-
 @media screen and (max-width: 992px) and (min-width: 0px) {
+    .wrap-menu {
+        background: none !important;
+    }
     .trigger-toggle {
         display: block;
         visibility: visible;
@@ -355,6 +385,7 @@ nav#mainmenu ul li{
     nav#mainmenu {
         padding: 0 !important;
         margin: 0 !important;
+        float: none !important;
     }
     nav#mainmenu ul {
         position: absolute !important;
@@ -369,10 +400,6 @@ nav#mainmenu ul li{
         text-align: left !important;
         width: 100%;
         border: 1px solid #ffffff;
-        background-color: rgba(28, 189, 157, 0.9);
-        color: #ffffff;
-    }
-    nav#mainmenu ul li a {
-        color: #000000 !important;
+        background-color: rgba(247, 74, 0, 0.9);
     }
 }
