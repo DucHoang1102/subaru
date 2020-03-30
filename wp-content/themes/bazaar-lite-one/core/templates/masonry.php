@@ -11,8 +11,8 @@ if (!function_exists('bazaarlite_masonry_child_function')) {
 
     function bazaarlite_masonry_child_function() { ?>
 
-        <div class="cat-masony">
-            <h1> <?php single_cat_title() ?> </h1>
+        <div class="contents-title">
+            <h3 > <?php echo mb_strtoupper( single_cat_title('',false) ) ?> </h3>
         </div>
         
         <?php

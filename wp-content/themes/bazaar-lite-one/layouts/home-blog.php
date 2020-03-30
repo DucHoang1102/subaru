@@ -77,7 +77,7 @@
                                     <td class="border-bottom "> 
                                         <p> <?php echo bazaarlite_setting( 'trangchu_quangcao_noidung1_panel' ); ?>  </p>
                                         <div class="text-center"> 
-                                            <button class="btn btn-primary <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> ĐĂNG KÝ ỨNG TUYỂN </button> </a> 
+                                            <button class="btn btn-main-title-color <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> ĐĂNG KÝ ỨNG TUYỂN </button> </a> 
                                         </div>
                                     </td> 
                                 </tr>
@@ -86,7 +86,7 @@
                                     <td class="border-bottom">
                                         <p> <?php echo bazaarlite_setting( 'trangchu_quangcao_noidung2_panel' ); ?> </p>
                                         <div class="text-center"> 
-                                            <a href="<?php echo bazaarlite_setting( 'trangchu_quangcao_linkdangkiungtuyen_panel' ); ?>"> <button class="btn btn-primary"> XEM QUY TRÌNH </button> </a>
+                                            <a href="<?php echo bazaarlite_setting( 'trangchu_quangcao_linkdangkiungtuyen_panel' ); ?>"> <button class="btn btn-main-title-color"> XEM QUY TRÌNH </button> </a>
                                         </div>
                                     </td>
                                 </tr>

@@ -37,6 +37,12 @@ Bazaar Lite is distributed under the terms of the GNU GPL v3
    CONTENT
 --------------------------------------------------------------------------------------- */
 /* Common */
+
+:root{
+    --main-bg-color: #f74a00;
+    --main-title-color: #008989;
+};
+
 body {
     font-family: sans-serif !important;
 }
@@ -46,10 +52,14 @@ body {
 }
 .contents-title h3{
     font-weight: 600;
-    color: #2765CF;
+    color: var(--main-title-color);
     margin: 1em 0 1em 0;
     padding-bottom: 0.5em;
-    border-bottom: 1px solid #b3bbc9;
+    border-bottom: 1px solid #009999;
+}
+.btn-main-title-color {
+    background-color: var(--main-title-color);
+    color: #ffffff;
 }
 
 /* Content orders */
@@ -65,14 +75,14 @@ body {
 }
 .content-table .contents-items table th {
     font-weight: 600;
-    background-color: #2765CF;
+    background-color: #008989;
     color: #ffffff;
     text-align: center;
 }
 .content-table .contents-items table td {
 }
 .content-table .contents-items table td a {
-    color: #004f9e;
+    color: #009999;
 }
 
 /* Content-video */
@@ -84,7 +94,7 @@ body {
 }
 .content-video .content-items table td {
     padding: 0.5em 1em;
-    background-color: #C23B2E;
+    background-color: var(--main-bg-color);
     height: 157px;
 }
 .content-video .content-items table td i{
@@ -146,7 +156,7 @@ body {
    DON HANG FORMAT (oders)
 --------------------------------------------------------------------------------------- */
 .donhang .donhang-content {
-    background-color: #C23B2E;
+    background-color: var(--main-bg-color);
     padding: 0.5em;
 }
 .donhang .donhang-content h6 {
@@ -194,7 +204,7 @@ body {
     font-weight: 600;
 }
 .post .post-content h6 a {
-    color: #2765CF;
+    color: #009999;
 }
 .post .post-content span {
     display: block;
@@ -278,7 +288,7 @@ body {
     width: 100%;
     padding: 0.5em;
     color: #ffffff !important;
-    background-color: #2765CF;
+    background-color: var(--main-title-color);
 }
 .sidebar-box .widget-box ul,
 .sidebar-box .widget-box .wpforms-container{
@@ -289,13 +299,6 @@ body {
    Masony ( view at category )
 --------------------------------------------------------------------------------------- */
 .masonry-container {
-}
-.cat-masony h1{
-    border-bottom: 1px solid #b3bbc9;
-    margin: 0 0 1em 0;
-    padding: 0.3em 0 0.3em 0;
-    font-weight: 600;
-    color: #2765CF;
 }
 .masonry {
     margin-bottom: 0 !important;
@@ -330,6 +333,14 @@ body {
 .trigger-toggle i {
     font-size: 30px;
     padding-top: 20px;
+}
+
+nav#mainmenu {
+    border: 1px solid black;
+}
+
+nav#mainmenu ul li{
+    border: 1px solid green;
 }
 
 @media screen and (max-width: 992px) and (min-width: 0px) {

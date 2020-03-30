@@ -22,6 +22,6 @@
     ?>
     <img src="<?php echo $img_src; ?>" alt="" >
 
-    <button class="btn btn-primary btn-block <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> <i class="fa fa-phone" aria-hidden="true"></i> ĐĂNG KÝ NGAY </button>
+    <button class="btn btn-main-title-color btn-block <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> <i class="fa fa-phone" aria-hidden="true"></i> ĐĂNG KÝ NGAY </button>
     
 </div>
