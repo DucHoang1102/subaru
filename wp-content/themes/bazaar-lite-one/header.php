@@ -60,7 +60,7 @@ if ( function_exists('wp_body_open') ) {
                             </div>
 
                             <div class="col-md-3 dangkingay">
-                                <button class="btn btn-danger <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> <i class="fa fa-refresh fa-spin fa-fw"></i> <span class="sr-only">Loading...</span> Đăng ký ứng tuyển </button>
+                                <button class="btn btn-main-bg-color <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> <i class="fa fa-refresh fa-spin fa-fw"></i> <span class="sr-only">Loading...</span> Đăng ký ứng tuyển </button>
                             </div> 
                         </div>
                     </div>

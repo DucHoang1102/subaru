@@ -63,6 +63,10 @@ body {
     background-color: var(--main-title-color);
     color: #ffffff;
 }
+.btn-main-bg-color {
+    background-color: var(--main-bg-color);
+    color: #ffffff;
+}
 
 /* Content orders */
 .content-orders .contents-items article {
@@ -417,6 +421,7 @@ nav#mainmenu .current-menu-item {
 .branding-site .dangkingay {
     text-align: right;
 }
+
 @media screen and (max-width: 992px) and (min-width: 0px){
     .branding-site .lienhe,
     .branding-site .dangkingay {
