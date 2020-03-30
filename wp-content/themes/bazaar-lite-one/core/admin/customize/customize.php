@@ -219,7 +219,7 @@ if ( ! function_exists( 'bazaarliteone_customize_panel_function' ) ) {
                         'id'          => 'trangchu_chuongtrinhdichvu_link1_panel',
                         'type'        => 'text',
                         'section'     => 'trangchu_chuongtrinhdichvu_panel',
-                        'std'         => 'thuc-tap-sinh-ki-nang',
+                        'std'         => 'thuc-tap-sinh-ky-nang',
                     ),
                     array(
                         
@@ -228,7 +228,7 @@ if ( ! function_exists( 'bazaarliteone_customize_panel_function' ) ) {
                         'id'          => 'trangchu_chuongtrinhdichvu_link2_panel',
                         'type'        => 'text',
                         'section'     => 'trangchu_chuongtrinhdichvu_panel',
-                        'std'         => 'chuong-trinh-ki-su',
+                        'std'         => 'chuong-trinh-ky-su',
                     ),
                     array(
                         
