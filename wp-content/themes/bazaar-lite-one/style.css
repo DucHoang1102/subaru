@@ -113,37 +113,34 @@ body {
     margin-top: 0.5em;
     font-weight: 600;
 }
-/* Content news */
-.content-news {
-    padding: 1em;
+
+/* Content chương trình dịch vụ */
+.donhangdichvu {
 }
-.content-news .contents-items .item {
-    margin-bottom: 1em;
-    background-color: #F8F8F8;
+.donhangdichvu .icon {
+    font-size: 50px;
+    color: var(--main-bg-color);
+    padding: 0 10px 0 10px;
+    text-align: center;
 }
-.content-news .contents-items .item img {
-    width: 100%;
-}
-.content-news .contents-items .item .item-content {
-    overflow: hidden;
-    padding: 0.5em;
-    height: 220px;
-}
-.content-news .contents-items .item .item-content h6 {
-    margin: 1em 0;
+.donhangdichvu .title h4{
+    margin: 0;
+    color: #000000;
     font-weight: 600;
 }
-.content-news .contents-items .item .item-content h6 a {
-    color: #2765CF;
+.donhangdichvu .content {
+    color: #000000;
 }
-.content-news .contents-items .item .item-content span {
-    display: block;
-    font-style: italic;
-    margin-bottom: 0.5em;
+.donhangdichvu .readmore {
+    margin-top: 5px;
 }
-.content-news .contents-items .item .item-content p {
-    line-height: 1.3em;
+.donhangdichvu .readmore a {
+    border-left: 1px solid var(--main-bg-color);
+    padding: 0 0 0 5px;
+    color: var(--main-title-color);
 }
+
+
 /* ---------------------------------------------------------------------------------------
    FOOTER
 --------------------------------------------------------------------------------------- */
@@ -413,6 +410,9 @@ nav#mainmenu .current-menu-item {
 }
 .branding-site .lienhe {
     text-align: left;
+}
+.branding-site .lienhe h4 {
+    color: var(--main-bg-color);
 }
 .branding-site .dangkingay {
     text-align: right;

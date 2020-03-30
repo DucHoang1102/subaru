@@ -108,6 +108,8 @@
             </div>
         </div>
     </section>
+    
+    <?php get_template_part( 'core/post-formats/' . 'chuongtrinhdichvu' . '-format' ); ?>
 
     <section class="content-news">
         <div class="row contents-title">

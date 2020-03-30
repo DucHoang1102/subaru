@@ -203,6 +203,52 @@ if ( ! function_exists( 'bazaarliteone_customize_panel_function' ) ) {
                         'std'         => '4',
                     ),
 
+                /* Khung hiển thị chương trình và dịch vụ */
+                array( 
+
+                    'title'    => esc_html__( 'Khung hiển thị chương trình và dịch vụ','bazaarone-lite'),
+                    'type'     => 'section',
+                    'panel'    => 'trangchu_panel',
+                    'priority' => '10',
+                    'id'       => 'trangchu_chuongtrinhdichvu_panel',
+                ),
+                    array(
+                        
+                        'label'       => esc_html__( 'Link #1:','bazaarone-lite'),
+                        'description' => esc_html__( 'Đường dẫn bài viết khi người dùng bấm xem thêm','bazaarone-lite'),
+                        'id'          => 'trangchu_chuongtrinhdichvu_link1_panel',
+                        'type'        => 'text',
+                        'section'     => 'trangchu_chuongtrinhdichvu_panel',
+                        'std'         => 'thuc-tap-sinh-ki-nang',
+                    ),
+                    array(
+                        
+                        'label'       => esc_html__( 'Link #2:','bazaarone-lite'),
+                        'description' => esc_html__( 'Đường dẫn bài viết khi người dùng bấm xem thêm','bazaarone-lite'),
+                        'id'          => 'trangchu_chuongtrinhdichvu_link2_panel',
+                        'type'        => 'text',
+                        'section'     => 'trangchu_chuongtrinhdichvu_panel',
+                        'std'         => 'chuong-trinh-ki-su',
+                    ),
+                    array(
+                        
+                        'label'       => esc_html__( 'Link #3:','bazaarone-lite'),
+                        'description' => esc_html__( 'Đường dẫn bài viết khi người dùng bấm xem thêm','bazaarone-lite'),
+                        'id'          => 'trangchu_chuongtrinhdichvu_link3_panel',
+                        'type'        => 'text',
+                        'section'     => 'trangchu_chuongtrinhdichvu_panel',
+                        'std'         => 'gioi-thieu-viec-lam',
+                    ),
+                    array(
+                        
+                        'label'       => esc_html__( 'Link #4:','bazaarone-lite'),
+                        'description' => esc_html__( 'Đường dẫn bài viết khi người dùng bấm xem thêm','bazaarone-lite'),
+                        'id'          => 'trangchu_chuongtrinhdichvu_link4_panel',
+                        'type'        => 'text',
+                        'section'     => 'trangchu_chuongtrinhdichvu_panel',
+                        'std'         => 'du-hoc-nhat-ban',
+                    ),
+
                 /* Cài đặt khác */
                 array( 
 
