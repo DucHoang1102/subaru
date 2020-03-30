@@ -43,7 +43,7 @@ Bazaar Lite is distributed under the terms of the GNU GPL v3
     --main-title-color: #008989;
     --menu-bg-color: #F74A00;
     --menu-hover-color: #ff804f;
-};
+}
 
 body {
     font-family: sans-serif !important;
@@ -326,15 +326,12 @@ body {
 /* ---------------------------------------------------------------------------------------
    Menu 
 --------------------------------------------------------------------------------------- */
-.wrap-menu {
-    background-color: var(--menu-bg-color);
-    box-shadow: 0 4px 2px -2px gray;
-}
 nav#mainmenu {
     padding: 0 !important;
     margin: 0 !important;
     width: 100%;
     text-align: center !important;
+    background-color: var(--menu-bg-color);
 }
 nav#mainmenu ul {
     padding: 0 !important;
@@ -402,4 +399,31 @@ nav#mainmenu .current-menu-item {
         border: 1px solid #ffffff;
         background-color: rgba(247, 74, 0, 0.9);
     }
+}
+
+/* ---------------------------------------------------------------------------------------
+   Branding style
+--------------------------------------------------------------------------------------- */
+.branding-site {
+    margin-bottom: 2px;
+}
+.branding-site .lienhe,
+.branding-site .dangkingay {
+    padding-top: 20px;
+}
+.branding-site .lienhe {
+    text-align: left;
+}
+.branding-site .dangkingay {
+    text-align: right;
+}
+@media screen and (max-width: 992px) and (min-width: 0px){
+    .branding-site .lienhe,
+    .branding-site .dangkingay {
+        padding-top: 0px;
+    }
+    .branding-site .dangkingay {
+        text-align: left;
+    }
+
 }

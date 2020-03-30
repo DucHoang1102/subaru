@@ -31,8 +31,8 @@ if ( function_exists('wp_body_open') ) {
             
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="branding-site">
-                            <div class="col-md-2 text-left">
+                        <div class="row branding-site">
+                            <div class="col-md-4 text-left border-border">
                                 <div class="row">
                                     
                                     <div class="col-xs-9">
@@ -55,11 +55,11 @@ if ( function_exists('wp_body_open') ) {
                                 
                             </div>
 
-                            <div class="col-md-7 text-right">
+                            <div class="col-md-5 lienhe">
                                 <h4> <i class="fa fa-phone-square" aria-hidden="true"></i> Liên hệ ngay: <b>0913.200.236 - 0967.971.575</b> </h4>
                             </div>
 
-                            <div class="col-md-3 text-right">
+                            <div class="col-md-3 dangkingay">
                                 <button class="btn btn-danger <?php echo bazaarlite_setting( 'trangchu_settings_popup_panel' ) ?>"> <i class="fa fa-refresh fa-spin fa-fw"></i> <span class="sr-only">Loading...</span> Đăng ký ứng tuyển </button>
                             </div> 
                         </div>
