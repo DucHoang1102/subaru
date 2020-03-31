@@ -1,0 +1,233 @@
+0000.001 (0) Opened log file at time: Tue, 31 Mar 2020 01:56:38 +0000 on http://localhost/subaru
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.4.3 (apache2handler, Windows NT DESKTOP-BQCM0CL 10.0 build 17763 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.8M | 6M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 12351 MB
+0000.016 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.042 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.070 (0) Set semaphore last lock (fd) time to 2020-03-31 01:56:38
+0000.073 (0) Semaphore lock (fd) complete
+0000.081 (0) Backup run: resumption=0, nonce=43f736b0c0d0, file_nonce=43f736b0c0d0 begun at=1585619798 (0s ago), job type=backup
+0000.086 (0) Scheduling a resumption (1) after 300 seconds (1585620098) in case this run gets aborted
+0000.117 (0) Checking if we have a zip executable available
+0000.122 (0) Creation of backups of directories: beginning
+0000.133 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.786 (0) Total entities for the zip file: 747 directories, 4367 files (0 skipped as non-modified), 57.1 MB
+0002.804 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.392 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 81 (82) files added so far); re-opening (prior size: 128.9 KB)
+0006.681 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 100 files added (on-disk size: 609.9 KB)
+0008.415 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 115 (197) files added so far); re-opening (prior size: 609.9 KB)
+0009.014 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 200 files added (on-disk size: 1221 KB)
+0011.391 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 46 (243) files added so far); re-opening (prior size: 1221 KB)
+0012.114 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 300 files added (on-disk size: 1282.9 KB)
+0013.592 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 400 files added (on-disk size: 1282.9 KB)
+0014.395 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 222 (465) files added so far); re-opening (prior size: 1282.9 KB)
+0015.033 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 500 files added (on-disk size: 2118.8 KB)
+0016.067 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 600 files added (on-disk size: 2118.8 KB)
+0017.392 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.6 MB, 235 (700) files added so far); re-opening (prior size: 2118.8 KB)
+0017.682 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 700 files added (on-disk size: 3014 KB)
+0018.552 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 800 files added (on-disk size: 3014 KB)
+0019.512 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 900 files added (on-disk size: 3014 KB)
+0020.396 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.3 MB, 226 (926) files added so far); re-opening (prior size: 3014 KB)
+0023.699 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 73 (999) files added so far); re-opening (prior size: 3534.5 KB)
+0024.111 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 1000 files added (on-disk size: 4062.6 KB)
+0026.690 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 14 (1013) files added so far); re-opening (prior size: 4062.6 KB)
+0028.935 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 1100 files added (on-disk size: 4096.7 KB)
+0029.275 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 1200 files added (on-disk size: 4096.7 KB)
+0029.393 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.9 MB, 197 (1210) files added so far); re-opening (prior size: 4096.7 KB)
+0032.408 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.4 MB, 82 (1292) files added so far); re-opening (prior size: 5336.1 KB)
+0032.930 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 1300 files added (on-disk size: 5652.7 KB)
+0034.534 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 1400 files added (on-disk size: 5652.7 KB)
+0035.403 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (15.1 MB, 177 (1469) files added so far); re-opening (prior size: 5652.7 KB)
+0037.453 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 1500 files added (on-disk size: 9530.8 KB)
+0039.071 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 1600 files added (on-disk size: 9530.8 KB)
+0039.405 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 148 (1617) files added so far); re-opening (prior size: 9530.8 KB)
+0041.038 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 1700 files added (on-disk size: 9805.1 KB)
+0042.397 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 146 (1763) files added so far); re-opening (prior size: 9805.1 KB)
+0043.164 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 1800 files added (on-disk size: 9969.8 KB)
+0045.093 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 1900 files added (on-disk size: 9969.8 KB)
+0045.391 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 153 (1916) files added so far); re-opening (prior size: 9969.8 KB)
+0047.168 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 2000 files added (on-disk size: 10286.7 KB)
+0048.397 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 155 (2071) files added so far); re-opening (prior size: 10286.7 KB)
+0049.144 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 2100 files added (on-disk size: 10458.8 KB)
+0051.416 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 129 (2200) files added so far); re-opening (prior size: 10458.8 KB)
+0051.777 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 2200 files added (on-disk size: 10835.7 KB)
+0053.493 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 2300 files added (on-disk size: 10835.7 KB)
+0054.394 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 152 (2352) files added so far); re-opening (prior size: 10835.7 KB)
+0055.620 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 2400 files added (on-disk size: 10974.3 KB)
+0056.823 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 2500 files added (on-disk size: 10974.3 KB)
+0057.426 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 165 (2517) files added so far); re-opening (prior size: 10974.3 KB)
+0059.661 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 2600 files added (on-disk size: 11856.1 KB)
+0060.402 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 116 (2633) files added so far); re-opening (prior size: 11856.1 KB)
+0062.666 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 2700 files added (on-disk size: 12020.5 KB)
+0063.394 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 107 (2740) files added so far); re-opening (prior size: 12020.5 KB)
+0065.326 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 2800 files added (on-disk size: 12183.4 KB)
+0066.391 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 111 (2851) files added so far); re-opening (prior size: 12183.4 KB)
+0068.140 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 2900 files added (on-disk size: 12384.7 KB)
+0069.404 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 MB, 102 (2953) files added so far); re-opening (prior size: 12384.7 KB)
+0071.105 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 3000 files added (on-disk size: 12663.3 KB)
+0071.981 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 3100 files added (on-disk size: 12663.3 KB)
+0072.410 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 182 (3135) files added so far); re-opening (prior size: 12663.3 KB)
+0074.030 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 3200 files added (on-disk size: 13262.7 KB)
+0075.481 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 MB, 80 (3215) files added so far); re-opening (prior size: 13262.7 KB)
+0078.409 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 48 (3263) files added so far); re-opening (prior size: 13700.9 KB)
+0079.434 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 3300 files added (on-disk size: 13745.6 KB)
+0080.410 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 3400 files added (on-disk size: 13745.6 KB)
+0081.403 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 195 (3458) files added so far); re-opening (prior size: 13745.6 KB)
+0082.574 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 3500 files added (on-disk size: 13984.1 KB)
+0084.103 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 3600 files added (on-disk size: 13984.1 KB)
+0084.398 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 156 (3614) files added so far); re-opening (prior size: 13984.1 KB)
+0086.008 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 3700 files added (on-disk size: 14211.7 KB)
+0087.401 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 173 (3787) files added so far); re-opening (prior size: 14211.7 KB)
+0088.216 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 3800 files added (on-disk size: 14724.4 KB)
+0088.998 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 3900 files added (on-disk size: 14724.4 KB)
+0089.694 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 4000 files added (on-disk size: 14724.4 KB)
+0090.478 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.6 MB, 243 (4030) files added so far); re-opening (prior size: 14724.4 KB)
+0091.811 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 4100 files added (on-disk size: 18614.3 KB)
+0093.132 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 4200 files added (on-disk size: 18614.3 KB)
+0093.391 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 183 (4213) files added so far); re-opening (prior size: 18614.3 KB)
+0095.645 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip.tmp: 4300 files added (on-disk size: 19206 KB)
+0096.410 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 141 (4354) files added so far); re-opening (prior size: 19206 KB)
+0097.709 (0) Created plugins zip (0) - 19425.9 KB in 97.6 s (199.1 KB/s) (sha1: 91339683e0e2cabd517a5d4e90993a9d70457dcf, sha256: 6c744eb037422a9281054c09f8de3ebb92b14a89d5d99ae1652c12a1be980e63)
+0097.716 (0) Beginning creation of dump of themes (split every: 400 MB)
+0097.970 (0) Total entities for the zip file: 99 directories, 428 files (0 skipped as non-modified), 9.8 MB
+0098.870 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0100.417 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.2 MB, 171 (171) files added so far); re-opening (prior size: 0 KB)
+0101.431 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-themes.zip.tmp: 200 files added (on-disk size: 3797.2 KB)
+0102.983 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-themes.zip.tmp: 300 files added (on-disk size: 3797.2 KB)
+0103.407 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 145 (316) files added so far); re-opening (prior size: 3797.2 KB)
+0105.244 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-themes.zip.tmp: 400 files added (on-disk size: 5121.9 KB)
+0106.402 (0) Created themes zip (0) - 6559.6 KB in 8.7 s (755.5 KB/s) (sha1: d6df8373a40fd798b1e4073f1665821ee81da16e, sha256: f0e1b156d33df12a77db962d0c68fab29344799ddf0af16d5dba4dcbbe625b55)
+0106.410 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0106.412 (0) Looking for candidates to backup in: C:\xampp\htdocs\subaru/wp-content/uploads
+0106.415 (0) finding files: 2020: adding to list (1)
+0106.417 (0) finding files: pum: adding to list (2)
+0106.419 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0106.477 (0) Total entities for the zip file: 3 directories, 109 files (0 skipped as non-modified), 18.7 MB
+0106.588 (0) Zip: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0107.128 (0) Created uploads zip (0) - 19109.7 KB in 0.7 s (27121.6 KB/s) (sha1: 457834388ea3c6af2b4284892163305fa92cadc0, sha256: 706e49eb193c2ef69566e91f2fff5cbf07653e01344a1821163b44adbc3880b2)
+0107.134 (0) Beginning backup of other directories found in the content directory (index: 0)
+0107.136 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0107.138 (0) Looking for candidates to backup in: C:\xampp\htdocs\subaru/wp-content
+0107.141 (0) finding files: index.php: adding to list (1)
+0107.143 (0) finding files: plugins: skipping: this is the plugins directory
+0107.146 (0) finding files: themes: skipping: this is the themes directory
+0107.148 (0) finding files: updraft: skipping: this is the updraft directory
+0107.150 (0) finding files: upgrade: skipping: excluded by options
+0107.152 (0) finding files: uploads: skipping: this is the uploads directory
+0107.160 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0107.185 (0) Created others zip (0) - 0.1 KB in 0 s (5 KB/s) (sha1: fed432872de2eef9859c2c998bbf397c1d7c04a1, sha256: 654580f3b2324228ad10cf420d4a1cfac527f33910b443b075f583f381f855c1)
+0107.196 (0) Saving backup status to database (elements: 8)
+0107.201 (0) Beginning creation of database dump (WordPress DB)
+0107.225 (0) Table wp_options: Total expected rows (approximate): 321
+0107.351 (0) Table wp_options: Total rows added: 325 in 0.12 seconds
+0107.363 (0) Table wp_options: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_options.table.gz - 291.9 KB)
+0107.372 (0) Table wp_users: Total expected rows (approximate): 3
+0107.396 (0) Table wp_users: Total rows added: 3 in 0.02 seconds
+0107.405 (0) Table wp_users: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_users.table.gz - 0.7 KB)
+0107.425 (0) Table wp_usermeta: Total expected rows (approximate): 63
+0107.459 (0) Table wp_usermeta: Total rows added: 63 in 0.03 seconds
+0107.469 (0) Table wp_usermeta: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_usermeta.table.gz - 1.5 KB)
+0107.478 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 28
+0107.503 (0) Table wp_actionscheduler_actions: Total rows added: 28 in 0.02 seconds
+0107.512 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_actionscheduler_actions.table.gz - 1.4 KB)
+0107.521 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0107.556 (0) Table wp_actionscheduler_claims: Total rows added: 0 in 0.03 seconds
+0107.576 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_actionscheduler_claims.table.gz - 0.3 KB)
+0107.590 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0107.612 (0) Table wp_actionscheduler_groups: Total rows added: 2 in 0.02 seconds
+0107.623 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0107.633 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 82
+0107.662 (0) Table wp_actionscheduler_logs: Total rows added: 82 in 0.03 seconds
+0107.672 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_actionscheduler_logs.table.gz - 1.3 KB)
+0107.680 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0107.697 (0) Table wp_commentmeta: Total rows added: 0 in 0.02 seconds
+0107.706 (0) Table wp_commentmeta: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0107.715 (0) Table wp_comments: Total expected rows (approximate): 0
+0107.732 (0) Table wp_comments: Total rows added: 0 in 0.02 seconds
+0107.741 (0) Table wp_comments: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_comments.table.gz - 0.5 KB)
+0107.750 (0) Table wp_links: Total expected rows (approximate): 0
+0107.769 (0) Table wp_links: Total rows added: 0 in 0.02 seconds
+0107.777 (0) Table wp_links: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_links.table.gz - 0.4 KB)
+0107.786 (0) Table wp_postmeta: Total expected rows (approximate): 1578
+0107.844 (0) Table wp_postmeta: Total rows added: 1578 in 0.06 seconds
+0107.855 (0) Table wp_postmeta: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_postmeta.table.gz - 24.5 KB)
+0107.864 (0) Table wp_posts: Total expected rows (approximate): 210
+0107.898 (0) Table wp_posts: Total rows added: 210 in 0.03 seconds
+0107.910 (0) Table wp_posts: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_posts.table.gz - 25.5 KB)
+0107.919 (0) Table wp_term_relationships: Total expected rows (approximate): 81
+0107.943 (0) Table wp_term_relationships: Total rows added: 81 in 0.02 seconds
+0107.953 (0) Table wp_term_relationships: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_term_relationships.table.gz - 0.6 KB)
+0107.962 (0) Table wp_term_taxonomy: Total expected rows (approximate): 138
+0107.989 (0) Table wp_term_taxonomy: Total rows added: 138 in 0.03 seconds
+0107.999 (0) Table wp_term_taxonomy: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_term_taxonomy.table.gz - 1.4 KB)
+0108.009 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0108.032 (0) Table wp_termmeta: Total rows added: 0 in 0.02 seconds
+0108.042 (0) Table wp_termmeta: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_termmeta.table.gz - 0.4 KB)
+0108.063 (0) Table wp_terms: Total expected rows (approximate): 138
+0108.083 (0) Table wp_terms: Total rows added: 138 in 0.02 seconds
+0108.093 (0) Table wp_terms: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_terms.table.gz - 2.1 KB)
+0108.103 (0) Table wp_podsrel: Total expected rows (approximate): 0
+0108.126 (0) Table wp_podsrel: Total rows added: 0 in 0.02 seconds
+0108.135 (0) Table wp_podsrel: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_podsrel.table.gz - 0.4 KB)
+0108.144 (0) Table wp_tm_taskmeta: Total expected rows (approximate): 0
+0108.162 (0) Table wp_tm_taskmeta: Total rows added: 0 in 0.02 seconds
+0108.171 (0) Table wp_tm_taskmeta: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_tm_taskmeta.table.gz - 0.3 KB)
+0108.181 (0) Table wp_tm_tasks: Total expected rows (approximate): 0
+0108.198 (0) Table wp_tm_tasks: Total rows added: 0 in 0.02 seconds
+0108.205 (0) Table wp_tm_tasks: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_tm_tasks.table.gz - 0.4 KB)
+0108.215 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 1
+0108.234 (0) Table wp_wpforms_tasks_meta: Total rows added: 1 in 0.02 seconds
+0108.243 (0) Table wp_wpforms_tasks_meta: finishing file (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_wpforms_tasks_meta.table.gz - 0.4 KB)
+0108.253 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_options.table.gz (1/20): adding to final database dump
+0108.327 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_users.table.gz (2/20): adding to final database dump
+0108.330 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_usermeta.table.gz (3/20): adding to final database dump
+0108.333 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_actionscheduler_actions.table.gz (4/20): adding to final database dump
+0108.336 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_actionscheduler_claims.table.gz (5/20): adding to final database dump
+0108.339 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_actionscheduler_groups.table.gz (6/20): adding to final database dump
+0108.341 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_actionscheduler_logs.table.gz (7/20): adding to final database dump
+0108.344 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_commentmeta.table.gz (8/20): adding to final database dump
+0108.347 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_comments.table.gz (9/20): adding to final database dump
+0108.349 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_links.table.gz (10/20): adding to final database dump
+0108.351 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_postmeta.table.gz (11/20): adding to final database dump
+0108.362 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_posts.table.gz (12/20): adding to final database dump
+0108.370 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_term_relationships.table.gz (13/20): adding to final database dump
+0108.372 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_term_taxonomy.table.gz (14/20): adding to final database dump
+0108.375 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_termmeta.table.gz (15/20): adding to final database dump
+0108.376 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_terms.table.gz (16/20): adding to final database dump
+0108.379 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_podsrel.table.gz (17/20): adding to final database dump
+0108.381 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_tm_taskmeta.table.gz (18/20): adding to final database dump
+0108.382 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_tm_tasks.table.gz (19/20): adding to final database dump
+0108.384 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db-table-wp_wpforms_tasks_meta.table.gz (20/20): adding to final database dump
+0108.404 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db.gz: finished writing out complete database file (328 KB)
+0108.440 (0) Total database tables backed up: 20 (backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db.gz, size: 359201, sha1: e1a4fc67430f5531bcdf68e77e04c79df1a2ba3e, sha256: d95b43328b3602abce8175b7b5dca0db2b8c443f2e98241c534754d1663deb42)
+0108.449 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0108.451 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0108.453 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0108.455 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0108.456 (0) backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0108.458 (0) Saving backup history. Total backup size: 44.4 MB
+0108.462 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0108.467 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0108.468 (0) No remote despatch: user chose no remote backup service
+0108.470 (0) Recording as successfully uploaded: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-plugins.zip
+0108.474 (0) Recording as successfully uploaded: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-themes.zip
+0108.477 (0) Recording as successfully uploaded: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-uploads.zip
+0108.480 (0) Recording as successfully uploaded: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-others.zip
+0108.483 (0) Recording as successfully uploaded: backup_2020-03-31-0156_localhost_subaru_43f736b0c0d0-db.gz
+0108.490 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0108.492 (0) Number of backup sets in history: 1; groups (db): 1
+0108.494 (0) Examining (for databases) backup set with group_id=0, nonce=43f736b0c0d0, datestamp=1585619798 (Mar 31 2020 01:56:38)
+0108.496 (0) This backup set is the backup set just made, so will not be deleted.
+0108.496 (0) Number of backup sets in history: 1; groups (files): 1
+0108.498 (0) Examining (for files) backup set with nonce=43f736b0c0d0, datestamp=1585619798 (Mar 31 2020 01:56:38)
+0108.498 (0) This backup set is the backup set just made, so will not be deleted.
+0108.500 (0) This backup set is the backup set just made, so will not be deleted.
+0108.500 (0) This backup set is the backup set just made, so will not be deleted.
+0108.500 (0) This backup set is the backup set just made, so will not be deleted.
+0108.500 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.502 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0108.507 (0) Resume backup (43f736b0c0d0, 0): finish run
+0108.513 (0) Decremented the semaphore (fd) by 1
+0108.516 (0) Semaphore (fd) unlocked
+0108.518 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0108.526 (0) No email will/can be sent - the user has not configured an email address.
+0108.528 (0) The backup apparently succeeded and is now complete
